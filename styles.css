@@ -175,9 +175,27 @@ nav ul li a:hover{
     background-image: linear-gradient(rgba(35, 97, 189, 0.397), rgba(33, 178, 189, 0.6));
 }
 
-.projects-page{
+.internship-page{
     padding-top: 10vh;
     background-image: linear-gradient(rgba(33, 178, 189, 0.6), rgba(35, 97, 189, 0.397));
+    padding-bottom: 30vh;
+}
+
+#internship video {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#internship object {
+    height: 50vh;
+    width: 50%;
+    margin-left: -1vw;
+}
+
+.projects-page{
+    padding-top: 10vh;
+    background-image: linear-gradient(rgba(35, 97, 189, 0.397), rgba(33, 178, 189, 0.6));
     padding-bottom: 30vh;
 }
 
@@ -202,7 +220,7 @@ nav ul li a:hover{
 .contact-page{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-image: linear-gradient(rgba(35, 97, 189, 0.397), rgba(33, 178, 189, 0.6));
+    background-image: linear-gradient(rgba(33, 178, 189, 0.6), rgba(35, 97, 189, 0.397));
     margin-bottom: 5vh;
 }
 
@@ -450,6 +468,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin-top: 5vh;
     }
     
+    #internship {
+        overflow-x: hidden;
+    }
+
+    #internship object {
+        height: 30vh;
+        width: 100%;
+        margin-left: -12vw;
+    }
+
     #projects {
         overflow-x: hidden;
     }
